@@ -9,6 +9,11 @@
     url('fenwick-outline-webfont.woff2') format('woff2');
   }
 
+  @font-face {
+    font-family: 'HeroFont2';
+    src: url(BebasNeue-Regular.ttf) format('ttf');
+  }
+
   body {
     font-family: 'Open Sans', sans-serif;
     background-color: yellow;
@@ -139,10 +144,15 @@
       margin-bottom: 15px 
     }
 
-
+    .bebas-neue-regular {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
   }
   .landing-page .content .info h1 {
-    font-family: 'HeroFont';
+    font-family: 'Bebas Neue' ;
     font-size: 50px;
   }
 
@@ -162,7 +172,7 @@
     background-color: #5d5d5d;
   }
   .landing-page .content .image img {
-    max-width: 100%;
+    max-width: 200%;
   }
   /* End Landing Page */
 
